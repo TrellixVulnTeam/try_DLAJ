@@ -2,4 +2,7 @@
 
 int main(){
   printf("%d",1);
+  asdads
+    adsa
+    :
 }
