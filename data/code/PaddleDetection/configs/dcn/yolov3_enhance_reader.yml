@@ -1,0 +1,19 @@
+TrainReader
+!VOCDataSet
+dataset_dir: dataset/aluminum_inspection
+anno_path: train_list.txt
+with_background: false
+use_default_label: false
+
+EvalReader
+!VOCDataSet
+dataset_dir: dataset/aluminum_inspection
+anno_path: val_list.txt
+use_default_label: false
+with_background: false
+
+TestReader
+!ImageFolder
+anno_path: dataset/aluminum_inspection/labels.txt
+use_default_label: false
+with_background: false

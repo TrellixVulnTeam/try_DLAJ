@@ -1,0 +1,3 @@
+metric: VOC
+num_classes: 3
+_READER_: 'yolov3_enhance_reader.yml'
